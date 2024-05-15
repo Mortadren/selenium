@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 button_sign_in_selector = (
     By.CSS_SELECTOR, '[data-ga-stats-name="auth_block_login"]')
 icon_selector = (By.CLASS_NAME, '_1tlqpaw1 _15r2d5o1')
-# addd = (By.CLASS_NAME, 'knfad11')
 
 
 class Main_page(BasePage):
