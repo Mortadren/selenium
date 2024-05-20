@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
 from pages.base_page import BasePage
-from selenium.webdriver.common.by import By
 from ui_selectors import LoginPageSelectors
 
 
