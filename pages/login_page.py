@@ -8,7 +8,7 @@ load_dotenv()
 login = os.getenv("LOGIN")
 password = os.getenv("PASSWORD")
 
-
+# TODO: решить проблему с неймингом
 class Login_page(BasePage):
     def __init__(self, browser):
         super().__init__(browser)

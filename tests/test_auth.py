@@ -1,6 +1,7 @@
 from pages.login_page import Login_page
 from pages.main_page import Main_page
 
+# TODO: решить проблему с неймингом
 
 def test_opening(browser):
     mane_page = Main_page(browser)
